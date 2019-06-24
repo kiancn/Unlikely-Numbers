@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Project Euler.exe" version="1.0.0.10" publicKeyToken="e1e174f046b13e98" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Project Euler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Project Euler.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Project Euler.exe" size="50080">
+      <assemblyIdentity name="Project Euler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rTFz6RmzfsE6L8kEo3FMVVNk44EVQHh2dOwPhAaTxQY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Project Euler.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MSI\MAdmin" issuerKeyHash="d187496b1008900da9df3076dbd9eb54b0ef128c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eZsDZ/ZdE3/aaMaTq4oZNyxlXHDv+QBptu8NUGUBJMo=</DigestValue></Reference></SignedInfo><SignatureValue>NaiTv+MxJrEPcesaYo9SU/RgAYT8ZSE3J5WVUWod/Al+kJ7A/DZwP8y9t4uU5uM9N6csuoi1PkNYUQ3rmnQafPpHvZ1pOdjFNOJkX6bo5e+WIO0MGX0jfroi74wHeWkrrnj8zm9keEHyFayoRiCzwGy/sAMCZqc4tjZnkUeAuxg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3/V6x70PVvDavgdNIwfVJ6CGVoEumus0tOXsTApiwNVorIjgP71MxZNhrFZHL9sp4+Qh7i4vEtcx4mZ/BVB1lC+94T6oa3D0IOql5fkjpyZzbXsUe/uo9I+FKIiagfr2pz3/v6oyw4vpsvIgnQ0GBnBXxELP0o4dbeC372uzP6k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ca240165500defb66900f9ef705c652c37198aab93c668da7f135df667039b79" Description="" Url=""><as:assemblyIdentity name="Project Euler.exe" version="1.0.0.10" publicKeyToken="e1e174f046b13e98" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MSI\MAdmin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>oCQB6YOvd98fwqgHEM6yfI/KR78T+bAU0oz0g/Yh13Q=</DigestValue></Reference></SignedInfo><SignatureValue>EQvPcHAyjwiATEszRaPO1A55FabW8d1AlgqhlU4UzLLUTRwRNcqbeX8eWNwXROt12qN6C3Y0/A1usldfStji6WiP1SmVFTGliTSWlChU774PFF3GF3GNkmyVXdgHktdMJlzdLIaammWfPh8Nr/WPlEbj7L/3v5/5jMb1uJWi9uU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3/V6x70PVvDavgdNIwfVJ6CGVoEumus0tOXsTApiwNVorIjgP71MxZNhrFZHL9sp4+Qh7i4vEtcx4mZ/BVB1lC+94T6oa3D0IOql5fkjpyZzbXsUe/uo9I+FKIiagfr2pz3/v6oyw4vpsvIgnQ0GBnBXxELP0o4dbeC372uzP6k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCASqgAwIBAgIQFroqtz+YmZhJuWNCg34OozANBgkqhkiG9w0BAQsFADAfMR0wGwYDVQQDHhQATQBTAEkAXABNAEEAZABtAGkAbjAeFw0xOTA1MjEyMzE3NDZaFw0yMDA1MjEwNTE3NDZaMB8xHTAbBgNVBAMeFABNAFMASQBcAE0AQQBkAG0AaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDf9XrHvQ9W8Nq+B00jB9UnoIZWgS6a6zS05exMCmLA1WisiOA/vUzFk2GsVkcv2ynj5CHuLi8S1zHiZn8FUHWUL73hPqhrcPQg6qXl+SOnJnNtexR7+6j0j4UoiJqB+vanPf+/qjLDi+my8iCdDQYGcFfEQs/Sjh1t4Lfva7M/qQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAJV8F3/wj4bMU3VVUMcku838EPNK/7ltG4ZNaJL0AptZ5M4/iN043oUJ7fuDJ+7rX9HLppaCYdJmKdsq7ORwP71GKje/2aVwCJXElzzfJv+SvJdEpenqh1FeqV/bVpluOw6adLi6KZXbPj1KetyEwz4mBTyp8SestFvnf5Q3Kfhv</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
